@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Dashboard from './screens/Dashboard/Dashboard_screen';
+import SignIn from './screens/login screen/SignIn_screen';
+import SignInSide from './screens/login screen/SideSignIn_screen';
+import SignUp from './screens/login screen/SignUp_screen';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <SignIn/> */}
+      {/* <SignUp/> */}
+      {/* <SignInSide/> */}
+      <Dashboard/>
+    </>
   );
 }
 
